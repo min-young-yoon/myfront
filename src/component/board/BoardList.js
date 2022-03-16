@@ -49,17 +49,17 @@ const BoardList = () => {
         </button>
         <ul className="dropdown-menu">
           <li>
-            <a className="dropdown-item" href="#">
+            <a className="dropdown-item">
               제목
             </a>
           </li>
           <li>
-            <a className="dropdown-item" href="#">
+            <a className="dropdown-item" >
               내용
             </a>
           </li>
           <li>
-            <a className="dropdown-item" href="#">
+            <a className="dropdown-item" >
               제목+내용
             </a>
           </li>

@@ -1,13 +1,13 @@
 import React from 'react';
-import {Routes, Route, Outlet, Link} from 'react-router-dom';
+import {  Outlet, Link} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Layout = () => {
 
-    const activeStyle = {
-        color: 'green',
-        fontSize: '2rem'
-    };
+    // const activeStyle = {
+    //     color: 'green',
+    //     fontSize: '2rem'
+    // };
 
     return (
         <div>
