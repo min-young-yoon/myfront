@@ -21,7 +21,7 @@ const BoardList = () => {
     // ]);
   
   //let url = "http://localhost:8090/guestbook"; //backend의 데이터 불러오기
-  let url = "http://http://115.85.180.41:8090/guestbook"; //공인 ip
+  let url = "//http://115.85.180.41:8090/guestbook"; //공인 ip
   axios
       .get(url)
       .then((response) => {
